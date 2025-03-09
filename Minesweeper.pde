@@ -129,7 +129,6 @@ public void mousePressed ()
      else if (mines.contains(this)) {
              setLabel("lose"); 
              revealAllMines();
-             noLoop();
      }
      else {
         int mineCount = countMines(myRow, myCol);
@@ -148,7 +147,6 @@ public void mousePressed ()
         }
         if (isWon()) {
             setLabel("win");
-            noLoop();
         }
     }
 }
