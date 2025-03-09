@@ -147,6 +147,7 @@ public void mousePressed ()
         }
         if (isWon()) {
             setLabel("win");
+            noLoop();
         }
     }
 }
