@@ -39,13 +39,11 @@ public void revealAllMines() {
         mine.revealMine();
     }
     displayLosingMessage();
-    noLoop();
 }
 
 public void draw ()
 {
     if(isWon() == true){
-        noLoop();
     }
 }
 public boolean isWon()
